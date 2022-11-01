@@ -1,4 +1,4 @@
-X_train_balanced = train_balanced.drop('y', axis=1)
+X_Value_Balanced = train_balanced.drop('y', axis=1)
 y_train_balanced = train_balanced['y']
 X_train = train.drop(columns=['y'])
 y_train = train['y']
